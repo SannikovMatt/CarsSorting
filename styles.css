@@ -1,0 +1,48 @@
+.container{
+
+    max-width: 900px;
+    margin: 0 auto;
+}
+.add__auto ,
+.sort__auto{
+    display: flex;
+    margin-top:  30px ;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    background-color: gray;
+   
+}
+
+.sort__auto  p{
+
+    margin:5px;
+}
+
+
+
+
+.cars__table{
+
+    width: 900px;
+    background: grey;
+    border:2px solid darkgray;
+    color: white;
+    text-align: left;
+    
+}
+.cars__table td{
+
+    width: 100px;
+    border:1px solid darkgray
+}
+
+.head td{
+
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.num{
+    width: 50px;
+    
+}

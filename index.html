@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="add__auto" class="add__auto">
+            <input name='brand' placeholder='Марка' itype="text">
+            <input name='model' placeholder='Модель' type="text">
+            <input name='year' placeholder='Год' type="text">
+            <input name='mileage' placeholder='Пробег' type="text">
+            <button type="sub">добавить авто</button>
+        </form>
+
+
+        <div class="sort__auto">
+
+            <p>Сортировать по:</p>
+            <input name='brand' placeholder='Марка' type="text">
+            <input name='model' placeholder='Модель' type="text">
+            <input name='year' placeholder='Год' type="text">
+            <input name='mileage' placeholder='Пробег' type="text">
+           
+        </div>
+
+        <div class="output__table">
+
+            <table class="cars__table">
+                <thead class="head">
+                    <td class="col num">№</td>
+                    <td class="col brand">Марка</td>
+                    <td class="col model">Модель</td>
+                    <td class="col year">Год выпуска</td>
+                    <td class="col  mileage">Пробег</td>
+                </thead>
+                <tbody class="output__data">
+
+                </tbody>
+
+
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="./sorting.js"></script>
+</body>
+
+</html>
